@@ -1,0 +1,11 @@
+F:\my_drive\script_parser_demo\script_parser_demo\bin\Debug\script_parser_demo.exe.config
+F:\my_drive\script_parser_demo\script_parser_demo\bin\Debug\script_parser_demo.exe
+F:\my_drive\script_parser_demo\script_parser_demo\bin\Debug\script_parser_demo.pdb
+F:\my_drive\script_parser_demo\script_parser_demo\obj\Debug\script_parser_demo.csprojResolveAssemblyReference.cache
+F:\my_drive\script_parser_demo\script_parser_demo\obj\Debug\script_parser_demo.Properties.Resources.resources
+F:\my_drive\script_parser_demo\script_parser_demo\obj\Debug\script_parser_demo.csproj.GenerateResource.Cache
+F:\my_drive\script_parser_demo\script_parser_demo\obj\Debug\script_parser_demo.exe
+F:\my_drive\script_parser_demo\script_parser_demo\obj\Debug\script_parser_demo.pdb
+F:\my_drive\script_parser\script_parser_demo\script_parser_demo\bin\Debug\script_parser_demo.exe.config
+F:\my_drive\script_parser\script_parser_demo\script_parser_demo\obj\Debug\script_parser_demo.exe
+F:\my_drive\script_parser\script_parser_demo\script_parser_demo\obj\Debug\script_parser_demo.pdb

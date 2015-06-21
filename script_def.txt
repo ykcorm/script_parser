@@ -1,0 +1,43 @@
+--------------------------------------------------------------------------------
+Overview
+--------------------------------------------------------------------------------
+# Script file is a text file with extension .scr.
+# First line in .scr file starts with < /v > followed by version no " Application.Project.Module.Version "
+# Script is parsed on line by line basis.
+# General format
+  < // > Comment : Line starting with < // > is a comment. There can be space before < // >.
+  < space > Delimiter for lines which are actual commands. Command lines will start with decimal or hexadecimal or strings.
+  < ; > End of command
+  < 0x > Hex input
+  < /v > Version no of script  Application.Project.Module.Version
+  < /t > Line starting with < /t > is Expected time for script completion in ms.
+
+--------------------------------------------------------------------------------
+Commands
+--------------------------------------------------------------------------------
+# Sample example for script commands for script version 0.0.0.0
+# Command = Total 16* 32 bits = 64 bytes
+   
+< TRR > < SNO 32 bit > < Command 32 bit >  < Data 13 * 32 bit > < CRC 32 bit > ;
+# TRR - Test report relevant this field is not part of command. It is part of
+  script file only. This will be used by other modules.
+  
+# CRC field is auto appended by script parser.  
+
+# SNO 32 bit 
+  Unique serial no of a command
+  
+# Command 32 bit 
+  Command  id. This will be defined as per application.
+  
+# Data 
+  Data payload.
+
+# Space is a delimiter between parameters
+
+# < ; > means end of command
+
+# If a command has insufficient parameters then they will be assumed 0. 
+
+# CRC 32 bit is calculated on 60 bytes i.e. SNO to last 32 bit of data payload.
+  
